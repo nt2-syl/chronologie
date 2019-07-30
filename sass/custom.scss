@@ -6,8 +6,12 @@
 @import "compass/reset";
 
 body {
-  max-width: 90%;
-  margin: 0 auto;
+    background-color: #FFF;
+    color: #777;
+    font-family: "Open Sans",Arial,sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0
 }
 /* webfont*/
 
@@ -46,6 +50,11 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.1;
     color: inherit;
 }
+h1 {
+    border-bottom: none;
+    color: #1d2127;
+    font-size: 2.3em;
+}
 .h3, h3 {
     font-size: 24px;
 }
@@ -56,6 +65,12 @@ h3 {
     line-height: 24px;
     margin-bottom: 33px;
     text-transform: uppercase;
+}
+.footer {
+    font-size: 14px;
+    color: #fff;
+    background: #08c;
+    line-height: 28px;
 }
 
 /**/
