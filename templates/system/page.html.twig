@@ -51,6 +51,43 @@
  * @see html.html.twig
  */
 #}
+<div class="fullwidth top_navigation">
+  <div class="container">
+    <div class="fullwidth_inner top1">
+        {# Top Navigation #}
+        {% if page.top_navigation %}
+          {% block top_navigation %}
+            {{ page.top_navigation }}
+          {% endblock %}
+        {% endif %}
+    </div>
+  </div>
+</div>
+<div class="fullwidth main_navigation">
+  <div class="container">
+    <div class="fullwidth_inner top2">
+        {# Main Navigation #}
+        {% if page.main_navigation %}
+          {% block main_navigation %}
+            {{ page.main_navigation }}
+          {% endblock %}
+        {% endif %}
+    </div>
+  </div>
+</div>
+<div class="fullwidth title_breadcrumb">
+  <div class="container">
+    <div class="fullwidth_inner top3">
+        {# Breadcrumb #}
+        {% if page.breadcrumb %}
+          {% block breadcrumb %}
+            {{ page.breadcrumb }}
+          {% endblock %}
+        {% endif %}
+    </div>
+  </div>
+</div>
+
 {% set container = theme.settings.fluid_container ? 'container-fluid' : 'container' %}
 {# Navbar #}
 {% if page.navigation or page.navigation_collapsible %}
@@ -96,7 +133,6 @@
 {% block main %}
   <div role="main" class="main-container {{ container }} js-quickedit-main-content">
     <div class="row">
-
       {# Header #}
       {% if page.header %}
         {% block header %}
@@ -114,7 +150,7 @@
           </aside>
         {% endblock %}
       {% endif %}
-
+***
       {# Content #}
       {%
         set content_classes = [
@@ -125,21 +161,13 @@
         ]
       %}
       <section{{ content_attributes.addClass(content_classes) }}>
-
-        {# Highlighted #}
-        {% if page.highlighted %}
-          {% block highlighted %}
-            <div class="highlighted">{{ page.highlighted }}</div>
-          {% endblock %}
-        {% endif %}
-
         {# Help #}
         {% if page.help %}
           {% block help %}
             {{ page.help }}
           {% endblock %}
         {% endif %}
-TEST
+
         {# Content #}
         {% block content %}
           <a id="main-content"></a>
@@ -156,13 +184,21 @@ TEST
         {% endblock %}
       {% endif %}
     </div>
+
+    {# Page Bottom - 12 column width under content, sidebars #}
+    {% if page.page_bottom %}
+    <div class="row">
+      {% block page_bottom %}
+        <div class="col-xs-12 page_bottom">{{ page.page_bottom }}</div>
+      {% endblock %}
+    </div>
+    {% endif %}
+
   </div>
 {% endblock %}
 
-{% if page.footer %}
-  {% block footer %}
-    <footer class="footer {{ container }}" role="contentinfo">
-      {{ page.footer }}
-    </footer>
-  {% endblock %}
-{% endif %}
+<div class="fullwidth footer_navigation">
+  <div class="container">
+{% include directory ~ '/templates/system/footer.html.twig' %}
+  </div>
+</div>
