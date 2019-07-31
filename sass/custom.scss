@@ -81,4 +81,12 @@ h3 {
     line-height: 28px;
 }
 
-/**/
+/*Menu mobile */
+/*.nav > li,
+  .nav > li > a {
+    display: inline-block;
+  }*/
+.navbar-toggle .icon-bar {
+  background-color: #000;
+}
+
