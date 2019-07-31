@@ -133,11 +133,11 @@
 {% block main %}
   <div role="main" class="main-container {{ container }} js-quickedit-main-content">
     <div class="row">
-      {# Header #}
-      {% if page.header %}
-        {% block header %}
-          <div class="col-sm-12" role="heading">
-            {{ page.header }}
+      {# Highlighted #}
+      {% if page.highlighted %}
+        {% block highlighted %}
+          <div class="col-sm-12">
+            {{ page.highlighted }}
           </div>
         {% endblock %}
       {% endif %}
@@ -167,11 +167,26 @@
           {% endblock %}
         {% endif %}
 
+        {# Content Top #}
+        {% if page.content_top %}
+          {% block content_top %}
+            {{ page.content_top }}
+          {% endblock %}
+        {% endif %}
+
         {# Content #}
         {% block content %}
           <a id="main-content"></a>
           {{ page.content }}
         {% endblock %}
+
+        {# Content Bottom #}
+        {% if page.content_bottom %}
+          {% block content_bottom %}
+            {{ page.content_bottom }}
+          {% endblock %}
+        {% endif %}
+
       </section>
 
       {# Sidebar Second #}
@@ -184,11 +199,11 @@
       {% endif %}
     </div>
 
-    {# Page Bottom - 12 column width under content, sidebars #}
-    {% if page.page_bottom %}
+    {# Page Bottom / Related Content - 12 column width under content, sidebars #}
+    {% if page.related_content %}
     <div class="row">
-      {% block page_bottom %}
-        <div class="col-xs-12 page_bottom">{{ page.page_bottom }}</div>
+      {% block related_content %}
+        <div class="col-xs-12 page_bottom related_content">{{ page.related_content }}</div>
       {% endblock %}
     </div>
     {% endif %}
