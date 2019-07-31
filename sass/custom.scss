@@ -31,8 +31,7 @@ p {
     margin: 0 0 20px;
 }
 a {
-    /*color: #0088cc;*/
-    color: #000;
+    color: #0088cc;
     text-decoration: none;
 }
 a:hover, a:focus {
@@ -118,4 +117,32 @@ h1.page-header {
     border-bottom: none;
     color: #1d2127;
     font-size: 2.3em;
+}
+
+/* Menu principal 
+incluant menu collapsible (todo)
+1er niveau */
+
+/* min-width : mobile declencheur */
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.nav>li {
+    float: left;
+    line-height: 24px;
+}
+.nav > li a {
+    border-radius: 4px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    padding: 10px 13px;
+    text-transform: uppercase;
+}
+.nav > li:hover > a {
+    background: #0088cc;
+    color: #FFF;
 }
