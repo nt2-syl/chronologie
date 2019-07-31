@@ -132,6 +132,7 @@ incluant menu collapsible (todo)
 .nav>li {
     float: left;
     line-height: 24px;
+    list-style: none;
 }
 .nav > li a {
     border-radius: 4px;
@@ -145,4 +146,57 @@ incluant menu collapsible (todo)
 .nav > li:hover > a {
     background: #0088cc;
     color: #FFF;
+}
+.navbar-default {
+    background-color: transparent;
+    border-color: none;
+    float: right;
+}
+
+/* Menu langue */
+.language-switcher-language-url {
+    float: right;
+}
+.language-switcher-language-url li {
+    display: inline-block;
+    padding-left: 1em;
+}
+
+
+/* Titre des blocs */
+.block .block-title {
+
+    background: none;
+    position: relative;
+    margin: 0 0 10px;
+    color: #08c;
+    border-bottom: 1px solid #08c;
+    z-index: 1;
+
+}
+
+/* Slices */
+.footer_navigation {
+  background: #1F1E23;
+  color: #fff;
+}
+.copyright {
+    background: transparent;
+}
+.footer {
+    font-size: 14px;
+    color: #fff;
+    background: #08c;
+    line-height: 28px;
+}
+#footer h2 {
+    letter-spacing: normal;
+}
+#footer h1, #footer h2, #footer h3, #footer h4, #footer a {
+    color: #FFF;
+}
+#footer h2 {
+    font-size: 1.8em;
+    margin-bottom: 14px;
+    line-height: 27px;
 }
