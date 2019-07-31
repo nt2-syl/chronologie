@@ -75,6 +75,20 @@
     </div>
   </div>
 </div>
+
+<div class="fullwidth fullwidth_carousel">
+  <div class="container">
+    <div class="fullwidth_inner top3">
+        {# fullwidth carousel #}
+        {% if page.fullwidth_carousel %}
+          {% block fullwidth_carousel %}
+            {{ page.fullwidth_carousel }}
+          {% endblock %}
+        {% endif %}
+    </div>
+  </div>
+</div>
+
 <div class="fullwidth title_breadcrumb">
   <div class="container">
     <div class="fullwidth_inner top3">

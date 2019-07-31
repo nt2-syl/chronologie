@@ -7,11 +7,8 @@ description: 'Uses the Bootstrap framework Sass source files and must be compile
 package: 'Bootstrap'
 
 regions:
+  fullwidth_carousel: 'Fullwidth Carousel'
   highlighted: 'Highlighted'
-  help: 'Help'
-  content: 'Content'
-  sidebar_first: 'Primary'
-  sidebar_second: 'Secondary'
   top_navigation: 'Top Navigation'
   main_navigation: 'Main Navigation'
   breadcrumb: 'Breadcrumb'
