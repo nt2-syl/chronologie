@@ -13,108 +13,111 @@
 
 
 body {
-    background-color: #FFF;
-    color: #777;
-    font-family: "Open Sans",Arial,sans-serif;
-    font-size: 14px;
-    line-height: 22px;
-    margin: 0
+  background-color: #FFF;
+  color: #777;
+  font-family: "Open Sans",Arial,sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  margin: 0
 }
 /* webfont*/
 
 b, strong {
-    font-weight: 700;
+  font-weight: 700;
 }
 p {
-    margin: 0 0 20px;
+  margin: 0 0 20px;
 }
 a {
-    color: #0088cc;
-    text-decoration: none;
+  color: #0088cc;
+  text-decoration: none;
 }
-a:hover, a:focus {
-    text-decoration: underline;
+a:hover, a:focus, a:active {
+  -webkit-transition: all 0.35s;
+  -o-transition: all 0.35s;
+  transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  -ms-transition: all 0.35s;
+  outline: none !important;
+  color: #000;
+  text-decoration: underline;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #1d2127;
-    font-weight: 200;
-    letter-spacing: -1px;
-    margin: 0;
-        margin-bottom: 0px;
+  color: #1d2127;
+  font-weight: 200;
+  letter-spacing: -1px;
+  margin: 0;
+  margin-bottom: 0px;
 }
 
 .h1, .h2, .h3, h1, h2, h3 {
-    margin-top: 20px;
-    margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-    font-family: inherit;
-    line-height: 1.1;
-    color: #1d2127;
-    font-weight: 200;
-    letter-spacing: -1px;
-    margin: 0;
+  font-family: inherit;
+  line-height: 1.1;
+  color: #1d2127;
+  font-weight: 200;
+  letter-spacing: -1px;
+  margin: 0;
 }
 h1 {
-    border-bottom: none;
-    color: #1d2127;
-    font-size: 2.3em;
+  border-bottom: none;
+  color: #1d2127;
+  font-size: 2.3em;
 }
 h2 {
-    font-size: 2.2em;
-    font-weight: 300;
-    line-height: 42px;
-    margin: 0 0 32px 0;
+  font-size: 2.2em;
+  font-weight: 300;
+  line-height: 42px;
+  margin: 0 0 32px 0;
 }
 .h3, h3 {
-    font-size: 24px;
+  font-size: 24px;
 }
 h3 {
-    font-size: 1.8em;
-    font-weight: 400;
-    letter-spacing: normal;
-    line-height: 24px;
-    margin-bottom: 33px;
-    text-transform: uppercase;
+  font-size: 1.8em;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 24px;
+  margin-bottom: 33px;
+  text-transform: uppercase;
 }
 .footer {
-    font-size: 14px;
-    color: #fff;
-    background: #08c;
-    line-height: 28px;
+  font-size: 14px;
+  color: #fff;
+  background: #08c;
+  line-height: 28px;
 }
 
 /*Menu mobile */
-/*.nav > li,
-  .nav > li > a {
-    display: inline-block;
-  }*/
 .navbar-toggle .icon-bar {
   background-color: #000;
 }
 
 /* Barre Titre */
 .title_breadcrumb {
-    margin: 0 0 35px 0;
-    min-height: 50px;
-    position: relative;
-    text-align: left;
-    background-color: #F7F7F7;
-    border-bottom: 5px solid #F4F4F4;
-    border-top: none;
-    padding: 35px 0;
+  margin: 0 0 35px 0;
+  min-height: 50px;
+  position: relative;
+  text-align: left;
+  background-color: #F7F7F7;
+  border-bottom: 5px solid #F4F4F4;
+  border-top: none;
+  padding: 35px 0;
 }
 h1.page-header {
-    padding-bottom: 13px;
-    margin: 56px 0 28px;
-    display: inline-block;
-    font-size: 32px;
-    font-weight: 200;
-    line-height: 32px;
-    border-bottom: none;
-    color: #1d2127;
-    font-size: 2.3em;
+  padding-bottom: 13px;
+  margin: 56px 0 28px;
+  display: inline-block;
+  font-size: 32px;
+  font-weight: 200;
+  line-height: 32px;
+  border-bottom: none;
+  color: #1d2127;
+  font-size: 2.3em;
 }
 
 /* Menu principal 
@@ -123,39 +126,42 @@ incluant menu collapsible (todo)
 
 /* min-width : mobile declencheur */
 .nav {
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+ul.menu > li a::after {
+  display: none;
 }
 .navbar-default .navbar-collapse, 
 .navbar-default .navbar-form {
-    border-color: none;
+  border-color: none;
 }
 .navbar-default {
-    background-color: transparent;
-    border-color: none;
-    float: right;
+  background-color: transparent;
+  border-color: none;
+  float: right;
 }
 .nav > li {
-    float: left;
-    line-height: 24px;
-    list-style: none;
+  float: left;
+  line-height: 24px;
+  list-style: none;
 }
 .navbar-default .navbar-nav > li > a {
-    border-radius: 4px;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 20px;
-    padding: 10px 13px;
-    text-transform: uppercase;
+  border-radius: 4px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  padding: 10px 13px;
+  text-transform: uppercase;
 }
 .navbar-default .navbar-nav > li > a {
-    color: #0088cc;
+  color: #0088cc;
 }
 .navbar-default .navbar-nav > li:hover > a {
-    background: #0088cc;
-    color: #FFF;
+  background: #0088cc;
+  color: #FFF;
 }
 
 /* Menu principal collapsé */
@@ -163,24 +169,22 @@ incluant menu collapsible (todo)
 
 /* Menu langue */
 .language-switcher-language-url {
-    float: right;
+  float: right;
 }
 .language-switcher-language-url li {
-    display: inline-block;
-    padding-left: 1em;
+  display: inline-block;
+  padding-left: 1em;
 }
 
 
 /* Titre des blocs */
 .block .block-title {
-
-    background: none;
-    position: relative;
-    margin: 0 0 10px;
-    color: #08c;
-    border-bottom: 1px solid #08c;
-    z-index: 1;
-
+  background: none;
+  position: relative;
+  margin: 0 0 10px;
+  color: #08c;
+  border-bottom: 1px solid #08c;
+  z-index: 1;
 }
 
 /* Slices */
@@ -189,24 +193,24 @@ incluant menu collapsible (todo)
   color: #fff;
 }
 .copyright {
-    background: transparent;
+  background: transparent;
 }
 .footer {
-    font-size: 14px;
-    color: #fff;
-    background: transparent;
-    line-height: 28px;
+  font-size: 14px;
+  color: #fff;
+  background: transparent;
+  line-height: 28px;
 }
 #footer h2 {
-    letter-spacing: normal;
+  letter-spacing: normal;
 }
 #footer h1, #footer h2, #footer h3, #footer h4, #footer a {
-    color: #FFF;
+  color: #FFF;
 }
 #footer h2 {
-    font-size: 1.8em;
-    margin-bottom: 14px;
-    line-height: 27px;
+  font-size: 1.8em;
+  margin-bottom: 14px;
+  line-height: 27px;
 }
 
 /* test */
