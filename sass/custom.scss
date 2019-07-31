@@ -246,3 +246,7 @@ ul.menu > li a::after {
   }
 
 }
+/* La région apparaît même si exclus de la page d'accueil */
+.path-frontpage .title_breadcrumb {
+  display: none;
+}
