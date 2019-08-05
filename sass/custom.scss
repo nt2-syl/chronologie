@@ -327,6 +327,9 @@ ul.menu > li {
 .fa-group:before, .fa-users:before {
     content: "\f0c0";
 }
+.fa-navicon:before, .fa-reorder:before, .fa-bars:before {
+    content: "\f0c9";
+}
 
 .feature-box  p {
     color: #777;
