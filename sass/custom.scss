@@ -85,6 +85,15 @@ h3 {
   margin-bottom: 33px;
   text-transform: uppercase;
 }
+/* Utilisé par bloc Accueil Présentation */
+h4 {
+    font-size: 1.4em;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 27px;
+    margin: 0 0 14px 0;
+}
+
 .footer {
   font-size: 14px;
   color: #fff;
@@ -305,3 +314,52 @@ ul.menu > li {
     text-align: center;
   }
 }
+
+/* Bloc Accueil Présentation */
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.fa-group:before, .fa-users:before {
+    content: "\f0c0";
+}
+
+.feature-box  p {
+    color: #777;
+    line-height: 24px;
+    margin: 0 0 20px;
+}
+
+.heading-primary {
+    color: #0088cc !important;
+}
+.mb-none {
+    margin-bottom: 0 !important;
+}
+
+.feature-box .feature-box-info {
+    padding-left: 50px;
+}
+.feature-box .feature-box-icon {
+    background-color: #0088cc;
+}
+.feature-box .feature-box-icon {
+    background: #CCC;
+    border-radius: 35px;
+    color: #FFF;
+    display: inline-block;
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    margin-right: 10px;
+    position: relative;
+    text-align: center;
+    top: 5px;
+    width: 35px;
+}
+
+/**/
