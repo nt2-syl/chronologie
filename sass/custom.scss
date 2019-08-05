@@ -94,11 +94,9 @@ h4 {
     margin: 0 0 14px 0;
 }
 
-.footer {
-  font-size: 14px;
-  color: #fff;
-  background: #08c;
-  line-height: 28px;
+
+.views-row {
+  margin-bottom: 2em;
 }
 
 /*Menu mobile */
@@ -217,13 +215,11 @@ ul.menu > li a::after {
 }
 .footer {
   font-size: 14px;
-  color: #fff;
-  background: transparent;
+  color: #777;
+  background: #00;
   line-height: 28px;
 }
-#footer h2 {
-  letter-spacing: normal;
-}
+
 #footer h1, #footer h2, #footer h3, #footer h4, #footer a {
   color: #FFF;
 }
@@ -232,6 +228,27 @@ ul.menu > li a::after {
   margin-bottom: 14px;
   line-height: 27px;
 }
+ /* Footer */
+
+.footer a {
+  color: #fff;
+}
+#footer h2 {
+    letter-spacing: normal;
+        margin: 0 0 32px 0;
+}
+footer h2 {
+    font-size: 1.8em;
+    margin-bottom: 14px;
+    line-height: 27px;
+}
+.nav > li > a {
+  padding: 8px 15px;
+}
+.nav > li > a:hover {
+  background: transparent;
+}
+
 
 /* Recherche V1 - sans module custom */
 .top_navigation {
@@ -365,4 +382,23 @@ ul.menu > li {
     width: 35px;
 }
 
-/**/
+/*sidebar*/
+.well.region-sidebar-second {
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+}
+
+/* help region + tabs */
+.alert {
+  background-color: transparent;
+  border-color: none;
+  color: #3a87ad;
+}
+.nav-tabs > li.active > a, .nav-tabs > li > a.active {
+    color: #0088cc !important;
+}
+
+
+/* accueil actualités */
