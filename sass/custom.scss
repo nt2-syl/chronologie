@@ -254,6 +254,7 @@ ul.menu > li a::after {
 #block-collapsiblesearch {
   width: 33%;
   float: right;
+  margin-bottom: 0;
 }
 .top_navigation {
   padding-top: 20px;
@@ -261,7 +262,7 @@ ul.menu > li a::after {
 }
 .language-switcher-language-url {
     float: right;
-    amrgin-bottom: 0;
+    margin-bottom: 0;
 }
 .navbar {
   min-height: auto;
@@ -271,3 +272,9 @@ ul.menu > li {
   padding-top: 0;
   padding-bottom: 0;
 }
+#block-chronologie-selecteurdelangue {
+    color: #999;
+    font-size: 0.9em;
+    padding: 6px 10px;
+    display: inline-block;
+    }
