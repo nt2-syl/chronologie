@@ -103,19 +103,26 @@ h4 {
 .navbar-toggle .icon-bar {
   background-color: #000;
 }
+
 /* Quicktabs standards */
 .quicktabs-wrapper {
   padding: 40px 0 0;
 }
+.bef-links,
 ul.quicktabs-tabs {
   margin: 0;
   padding: 0 0 40px;
   text-align: center;
 }
+.bef-links {
+  padding: 40px 0;
+}
+.bef-links a,
 ul.quicktabs-tabs li a {
   padding: 6px 20px 5px;
 }
-ul.quicktabs-tabs li.active a {
+ul.quicktabs-tabs li.active a,
+a.bef-link-active {
   border: 1px solid #222;
   border-radius: 20px;
 }
