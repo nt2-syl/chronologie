@@ -250,3 +250,24 @@ ul.menu > li a::after {
 .path-frontpage .title_breadcrumb {
   display: none;
 }
+/* search collapsible */
+#block-collapsiblesearch {
+  width: 33%;
+  float: right;
+}
+.top_navigation {
+  padding-top: 20px;
+  padding-bottom: 0;
+}
+.language-switcher-language-url {
+    float: right;
+    amrgin-bottom: 0;
+}
+.navbar {
+  min-height: auto;
+  margin-bottom: 16px;
+}
+ul.menu > li {
+  padding-top: 0;
+  padding-bottom: 0;
+}
