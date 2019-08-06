@@ -426,5 +426,37 @@ ul.menu > li {
 }
 
 
-/* accueil actualités */
-/**/
+/* Accueil actualités */
+
+
+/* Node Actualité */
+.page-node-type-article {
+  .field--type-datetime {
+    padding-top: 1em;
+  }
+  .field--name-field-lieu {
+    padding-bottom: 1em;
+  }
+}
+
+
+/* Node Individu */
+.page-node-type-article {
+  .field--name-body {
+    border-bottom: 2px solid #0088cc;
+    margin-bottom: 2em;
+  }
+  .view-eva {
+  font-size: 16px;
+  text-transform: uppercase;
+
+  .views-row {
+    margin-bottom: 2em;
+    font-size: 14px;
+    text-transform: initial;
+    }
+  }
+}
+.main-container {
+  margin-bottom: 4em;
+}
