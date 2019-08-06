@@ -157,15 +157,14 @@
       {% endif %}
 
       {# Sidebar First #}
-      {%
-        set content_classes = [
-          page.sidebar_first and page.sidebar_second ? 'col-sm-4',
-          page.sidebar_first and page.sidebar_second is empty ? 'col-sm-3'
-        ]
-      %}
       {% if page.sidebar_first %}
         {% block sidebar_first %}
-          <aside{{ content_attributes.addClass(content_classes) }} role="complementary">
+        {% set content_classes_sidebar = [
+            page.sidebar_first and page.sidebar_second ? 'col-sm-4',
+            page.sidebar_first and page.sidebar_second is empty ? 'col-sm-3'
+          ]
+        %}
+          <aside{{ content_attributes.addClass(content_classes_sidebar) }} role="complementary">
             {{ page.sidebar_first }}
           </aside>
         {% endblock %}
