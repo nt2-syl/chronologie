@@ -97,6 +97,7 @@ h4 {
 
 .views-row {
   margin-bottom: 2em;
+  clear: both;
 }
 
 /*Menu mobile */
@@ -474,13 +475,16 @@ ul.menu > li {
   
 }
 .row_image {
-  
+  padding-right: 2em;
 }
 .row_title {
   
 }
 .row_body {
   
+}
+.view-content h3 {
+  clear: both;
 }
 
 /**/
