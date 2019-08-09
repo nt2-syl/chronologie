@@ -447,7 +447,8 @@ footer .block .block-title {
 }
 /* TITRES LISTES */
 .accueil_actualites_title,
-.view-individus .row_title {
+.view-individus .row_title,
+.view-documents .row_title {
   color: #0088cc !important;
   font-size: 1.4em;
   font-weight: 400;
@@ -511,7 +512,8 @@ footer .block .block-title {
 
 .page-node-type-individu .field--name-field-taxo-territoire {}
 
-#views-exposed-form-individus-page-1 .control-label {
+/* Label générique */
+.control-label {
   font-weight: bold;
   font-size: 18px;
 }
@@ -588,4 +590,25 @@ MODELE https://www.refaktor.org/drupal/porto7/team/john-doe */
     -webkit-transition: border .2s ease-in-out;
     -o-transition: border .2s ease-in-out;
     transition: border .2s ease-in-out;
+}
+/* Search */
+.path-recherche .form-inline .control-label {
+  display: bold;
+}
+.view-environnement-recherche {
+  /* Type: petit, uppercase */
+  .views-field-type {
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  /* Titre large */
+  .views-field-title,
+  .views-field-title,
+  .views-field-title {
+    font-weight: 2em;
+  }
+  .views-field-body {
+    padding-top: 1em;
+  }
 }
