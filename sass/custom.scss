@@ -93,7 +93,9 @@ h4 {
     line-height: 27px;
     margin: 0 0 14px 0;
 }
-
+.heading-primary {
+  color: #0088cc !important;
+}
 
 .views-row {
   margin-bottom: 2em;
@@ -242,7 +244,7 @@ ul.menu > li a::after {
 .footer {
   font-size: 14px;
   color: #777;
-  background: #00;
+  background: transparent;
   line-height: 28px;
 }
 
@@ -426,9 +428,50 @@ ul.menu > li {
     color: #0088cc !important;
 }
 
+/* ACCUEIL */
+h1.page-header {
+  padding-bottom: 25px;
+  margin: 0 0 -25px;
+}
+footer .block .block-title {
+  border-bottom: none;
+}
+/* TITRE ACCUEIL */
+.path-frontpage .accueil_actualites_title {
+  color: #0088cc !important;
+  font-size: 1.4em;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 27px;
+  margin: 0 0 14px 0;
+}
+/* TITRES LISTES */
+.accueil_actualites_title,
+.view-individus .row_title {
+  color: #0088cc !important;
+  font-size: 1.4em;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 27px;
+  margin: 0 0 14px 0;
+}
 
-/* Accueil actualités */
+/* TITRES NODES */
+.page-node-type-article .field--name-field-lieu,
+.page-node-type-article .field--name-field-date,
+.documents .field--name-field-ref-auteur,
+.documents .field--name-field-date-annee,
+.documents .field--name-field-taxo-lang-originale,
+.documents .field--name-body  {
+  color: #0088cc !important;
+  font-size: 1.4em;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 27px;
+  margin: 0 0 14px 0;
+}
 
+/**/
 
 /* Node Actualité */
 .page-node-type-article {
@@ -440,6 +483,13 @@ ul.menu > li {
   }
 }
 
+/* sous-titre : date et lieu */
+.page-node-type-article .field--name-field-lieu,
+.page-node-type-article .field--name-field-date {
+}
+.field--name-field-documents span {
+  padding-right: 20px;
+}
 
 /* Node Individu */
 .page-node-type-individu {
@@ -458,6 +508,31 @@ ul.menu > li {
     }
   }
 }
+
+.page-node-type-individu .field--name-field-taxo-territoire {}
+
+#views-exposed-form-individus-page-1 .control-label {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#views-exposed-form-individus-page-1 .btn {
+  background-color: blue;
+}
+
+/* Node Document */
+.documents .field--name-field-ref-auteur,
+.documents .field--name-field-date-annee,
+.documents .field--name-field-taxo-lang-originale,
+.documents .field--name-body  {}
+
+.documents .field--name-field-ref-auteur {}
+.documents .field--name-field-date-annee {}
+.documents .field--name-field-taxo-lang-originale {}
+.documents .field--name-body  {
+    padding-top: 2em;
+}
+
 .main-container {
   margin-bottom: 4em;
 }
@@ -490,3 +565,27 @@ ul.menu > li {
 /**/
 .field--name-field-body-lang-2,
 .field--name-field-body-lang-3 {}
+
+/* TITRE EVA COMME BLOC, MAIS EN NOIR, TAILLE PLUS PETITE (HEADER 3) 
+MODELE https://www.refaktor.org/drupal/porto7/team/john-doe */
+.view-eva.view-document-auteur-vs-individu- {
+    font-size: 1.4em;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 27px;
+    margin: 0 0 14px 0;
+}
+/* Enjoliver les images en sidebar */
+.thumbnail,
+.region-sidebar-first .field--type-image {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
