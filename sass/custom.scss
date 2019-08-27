@@ -105,7 +105,12 @@ h4 {
   color: #fff;
 }
 
-
+.field--label {
+  font-weight: bold;
+}
+.region-sidebar-first .block-title {
+  font-size: 1.5em;
+}
 
 /*Menu mobile */
 .navbar-toggle .icon-bar {
@@ -467,8 +472,7 @@ footer .block .block-title {
 .page-node-type-article .field--name-field-date,
 .documents .field--name-field-ref-auteur,
 .documents .field--name-field-date-annee,
-.documents .field--name-field-taxo-lang-originale,
-.documents .field--name-body  {
+.documents .field--name-field-taxo-lang-originale {
   color: #0088cc !important;
   font-size: 1.4em;
   font-weight: 400;
