@@ -101,6 +101,11 @@ h4 {
   margin-bottom: 2em;
   clear: both;
 }
+.btn:hover {
+  color: #fff;
+}
+
+
 
 /*Menu mobile */
 .navbar-toggle .icon-bar {
@@ -519,7 +524,9 @@ footer .block .block-title {
 }
 
 #views-exposed-form-individus-page-1 .btn {
-  background-color: blue;
+  background-color: #0088cc;
+  border-color: #0088cc;
+  margin-top: 57px; /* Aligner avec les choix plutot qu'avec le titre */
 }
 
 /* Node Document */
