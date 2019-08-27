@@ -554,9 +554,10 @@ footer .block .block-title {
 }
 .row_image_wrapper {
   float: left;
+  display: inline-block;
 }
 .row_text_wrapper {
-  
+  display: inline-block;
 }
 .row_image {
   padding-right: 2em;
@@ -570,6 +571,13 @@ footer .block .block-title {
 .view-content h3 {
   clear: both;
 }
+.path-documents,
+.path-actualites {
+  .view-content h3 {
+    margin-top: 2em;
+  }
+}
+
 
 /**/
 .field--name-field-body-lang-2,
