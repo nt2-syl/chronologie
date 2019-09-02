@@ -259,8 +259,13 @@ ul.menu > li a::after {
 }
 
 #footer h1, #footer h2, #footer h3, #footer h4, #footer a {
-  color: #FFF;
+  color: #fff;
 }
+/* Exceptions */
+#footer .contextual a {
+  color: #000;
+}
+
 #footer h2 {
   font-size: 1.8em;
   margin-bottom: 14px;
@@ -528,11 +533,19 @@ footer .block .block-title {
   font-size: 18px;
 }
 
+
 #views-exposed-form-individus-page-1 .btn {
-  background-color: #0088cc;
-  border-color: #0088cc;
   margin-top: 57px; /* Aligner avec les choix plutot qu'avec le titre */
 }
+/* Boutons par défaut Bootstrap : harmoniser couleur */
+/* Bouton Exposed Form*/
+/* User Login Button */
+#views-exposed-form-individus-page-1 .btn,
+.user-login-form .btn {
+  background-color: #0088cc;
+  border-color: #0088cc;
+}
+
 
 /* Node Document */
 .documents .field--name-field-ref-auteur,
