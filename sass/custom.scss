@@ -526,6 +526,7 @@ footer .block .block-title {
 /* TITRES NODES */
 .page-node-type-article .field--name-field-lieu,
 .page-node-type-article .field--name-field-date,
+.page-node-type-article .field--name-field-date-fin,
 .documents .field--name-field-ref-auteur,
 .documents .field--name-field-date-annee,
 .documents .field--name-field-taxo-lang-originale {
@@ -541,8 +542,14 @@ footer .block .block-title {
 
 /* Node Actualité */
 .page-node-type-article {
+  .field--name-field-image {
+    padding-bottom: 1em;
+  }
+  /* Date de début, date de fin collés */
   .field--type-datetime {
-    padding-top: 1em;
+    padding-top: 0;
+    margin-bottom: 0;
+    line-height: 1;
   }
   .field--name-field-lieu {
     padding-bottom: 1em;
