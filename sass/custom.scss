@@ -121,6 +121,13 @@ h4 {
     line-height: 27px;
     margin: 0 0 14px 0;
 }
+
+/* Classes spéciales */
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
 .heading-primary {
   color: #0088cc !important;
 }
@@ -576,13 +583,16 @@ footer .block .block-title {
   text-transform: uppercase;
 
   .views-row {
-    margin-bottom: 2em;
+    margin-bottom: 0;
     font-size: 14px;
     text-transform: initial;
     }
   }
 }
-
+/* Titre des pages Individus */
+.individu_title span {
+  font-size: 24px;
+} 
 .page-node-type-individu .field--name-field-taxo-territoire {}
 
 /* Label générique */
@@ -665,8 +675,9 @@ footer .block .block-title {
 
 /* TITRE EVA COMME BLOC, MAIS EN NOIR, TAILLE PLUS PETITE (HEADER 3) 
 MODELE https://www.refaktor.org/drupal/porto7/team/john-doe */
-.view-eva.view-document-auteur-vs-individu- {
-    font-size: 1.4em;
+.page-node-type-individu .view-eva,
+.page-node-type-individu .region-sidebar-first .block-title {
+    font-size: 20px;
     font-weight: 400;
     letter-spacing: normal;
     line-height: 27px;
