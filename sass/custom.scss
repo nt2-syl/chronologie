@@ -656,3 +656,22 @@ MODELE https://www.refaktor.org/drupal/porto7/team/john-doe */
 .view-accueil-documents img {
   padding: 0 15px;
 }
+
+
+/* Fix pour Alert */
+.alert {
+    background-color: transparent;
+    border-color: none;
+    color: #3a87ad;
+    padding: 0;
+    line-height: 1px;
+    border-color: #fff;
+    margin-bottom: 0;
+}
+.alert > div {
+  padding: 20px;
+  line-height: 1
+}
+.alert .icon {
+  display: none;
+}
