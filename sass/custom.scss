@@ -582,10 +582,10 @@ footer .block .block-title {
   font-size: 16px;
   text-transform: uppercase;
 
-  .views-row {
-    margin-bottom: 0;
-    font-size: 14px;
-    text-transform: initial;
+    .views-row {
+      margin-bottom: 0;
+      font-size: 14px;
+      text-transform: initial;
     }
   }
 }
@@ -628,13 +628,22 @@ footer .block .block-title {
     padding-top: 2em;
 }
 
-.main-container {
-  margin-bottom: 4em;
+.page-node-type-documents .region-sidebar-first .block-title {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 27px;
+    margin: 0 0 14px 0;
 }
 
 /**
 * VARIA 
 */
+
+.main-container {
+  margin-bottom: 4em;
+}
+
 /**
 * Rangées (views rewrite) 
 */
@@ -677,7 +686,7 @@ footer .block .block-title {
 MODELE https://www.refaktor.org/drupal/porto7/team/john-doe */
 .page-node-type-individu .view-eva,
 .page-node-type-individu .region-sidebar-first .block-title {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     letter-spacing: normal;
     line-height: 27px;
