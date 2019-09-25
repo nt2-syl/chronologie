@@ -748,6 +748,14 @@ MODELE https://www.refaktor.org/drupal/porto7/team/john-doe */
   padding: 0 15px;
 }
 
+/* Contact - Bonifications */
+.contact-message-form .js-form-item-mail {
+  height: auto;
+  line-height: auto;
+  padding-left: 0;
+  background: transparent;
+}
+
 /* Responsive */
 
 @media (max-width: 991px) {
