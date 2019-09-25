@@ -1,3 +1,31 @@
+/*
+TABLE DES MATIÈRES
+1 Balises générales
+2 Fonctionnalités
+2.1 Menu mobile
+2.2 Quicktabs standards
+2.3 Barre Titre
+2.4 Menu principal
+2.5 Menu principal collapsé
+2.6 Menu langue
+2.7 Titre des blocs
+3 Regions
+3.0 Slices
+3.1 Footer
+3.2 Recherche V1 - sans module custom
+3.3 search collapsible
+3.4 accueil carousel
+3.5 Bloc Accueil Présentation
+3.6 sidebar
+3.7 help region + tabs
+4 Noeuds
+4.1 Node Actualité
+4.2 Node Individu
+4.3 Node Document
+5 Varia
+6 Responsive
+*/
+
 /* Welcome to Compass.
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
@@ -11,7 +39,7 @@
   src: url("fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("fonts/glyphicons-halflings-regular.woff") format("woff"), url("fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
 }
 
-
+/* Balises générales */
 body {
   background-color: #FFF;
   color: #777;
@@ -319,6 +347,10 @@ footer h2 {
 .path-frontpage .title_breadcrumb {
   display: none;
 }
+.breadcrumb {
+  display: none;
+}
+
 /* search collapsible */
 #block-collapsiblesearch {
   width: 33%;
@@ -442,6 +474,24 @@ ul.menu > li {
 .nav-tabs > li.active > a, .nav-tabs > li > a.active {
     color: #0088cc !important;
 }
+/* Fix pour Alert */
+.alert {
+    background-color: transparent;
+    border-color: none;
+    color: #3a87ad;
+    padding: 0;
+    line-height: 1px;
+    border-color: #fff;
+    margin-bottom: 0;
+}
+.alert > div {
+  padding: 20px;
+  line-height: 1
+}
+.alert .icon {
+  display: none;
+}
+
 
 /* ACCUEIL */
 h1.page-header {
@@ -565,6 +615,9 @@ footer .block .block-title {
 }
 
 /**
+* VARIA 
+*/
+/**
 * Rangées (views rewrite) 
 */
 .row_wrapper {
@@ -625,6 +678,7 @@ MODELE https://www.refaktor.org/drupal/porto7/team/john-doe */
     -o-transition: border .2s ease-in-out;
     transition: border .2s ease-in-out;
 }
+
 /* Search */
 .path-recherche .form-inline .control-label {
   display: bold;
@@ -657,21 +711,5 @@ MODELE https://www.refaktor.org/drupal/porto7/team/john-doe */
   padding: 0 15px;
 }
 
+/* Responsive */
 
-/* Fix pour Alert */
-.alert {
-    background-color: transparent;
-    border-color: none;
-    color: #3a87ad;
-    padding: 0;
-    line-height: 1px;
-    border-color: #fff;
-    margin-bottom: 0;
-}
-.alert > div {
-  padding: 20px;
-  line-height: 1
-}
-.alert .icon {
-  display: none;
-}
