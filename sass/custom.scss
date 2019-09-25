@@ -614,6 +614,10 @@ footer .block .block-title {
   border-color: #0088cc;
 }
 
+/* Liste Document */
+.view-documents {
+  max-width: 100px;
+}
 
 /* Node Document */
 .documents .field--name-field-ref-auteur,
@@ -635,6 +639,11 @@ footer .block .block-title {
     line-height: 27px;
     margin: 0 0 14px 0;
 }
+
+/* Sidebar Gauche : espacer les champs (visible sur documents) */
+ .region-sidebar-first .block-fieldblock {
+   padding-bottom: 2em;
+ }
 
 /**
 * VARIA 
