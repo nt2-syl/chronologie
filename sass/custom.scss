@@ -757,13 +757,17 @@ MODELE https://www.refaktor.org/drupal/porto7/team/john-doe */
 }
 
 /* Responsive */
-
 @media (max-width: 991px) {
 /* Correctifs - Quicktabs ne doivent pas être à 50%, mais 100%
    Visible sur listes Auteurs */
   .views-exposed-form > div {
     width: 100%;
   }  
+}
+/* double marge sur noeud chronologie */
+.page-node-type-chronologie .region-sidebar-first .block-fieldblock {
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 
