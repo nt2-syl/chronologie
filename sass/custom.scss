@@ -148,6 +148,9 @@ h4 {
 .region-sidebar-first .block-title {
   font-size: 1.5em;
 }
+.well {
+  box-shadow: none;
+}
 
 /* 2 Fonctionnalités */
 
@@ -385,16 +388,20 @@ ul.menu > li {
   padding-bottom: 0;
 }
 #block-chronologie-selecteurdelangue {
-    color: #999;
-    font-size: 0.9em;
-    padding: 6px 10px;
-    display: inline-block;
-    }
-    /* alignement 2 menus - aligné avec le bouton en :hover */
-    .navbar-collapse.collapse {
-    padding-left: 0;
-    padding-right:0;
-    }
+  color: #999;
+  font-size: 0.9em;
+  padding: 6px 10px;
+  display: inline-block;
+}
+/* alignement 2 menus - aligné avec le bouton en :hover */
+.navbar-collapse.collapse {
+  padding-left: 0;
+  padding-right:0;
+}
+#chronocustom-search-form .form-group:hover, 
+#chronocustom-search-form .form-group.hover {
+    border-radius: 25px;
+}
 
 /* 3.4 Accueil carousel */
 .view-carousel .views-field-body {
