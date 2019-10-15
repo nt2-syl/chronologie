@@ -403,6 +403,13 @@ ul.menu > li {
     border-radius: 25px;
 }
 
+/* Loupe */
+#chronocustom-search-form .form-group input.form-control {
+  background: transparent url(../images/loupe16.gif) no-repeat 100% 30%;
+}
+
+
+
 /* 3.4 Accueil carousel */
 .view-carousel .views-field-body {
     bottom: 30px;
