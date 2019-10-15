@@ -28,7 +28,7 @@ TABLE DES MATIÈRES
 6 Responsive
 */
 
-/* test */
+
 /* Welcome to Compass.
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
@@ -43,6 +43,10 @@ TABLE DES MATIÈRES
 }
 
 /* 1 Balises générales */
+.test {
+  color: #f00;
+}
+
 body {
   background-color: #FFF;
   color: #777;
