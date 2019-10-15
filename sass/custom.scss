@@ -764,7 +764,8 @@ MODELE https://www.refaktor.org/drupal/porto7/team/john-doe */
 }
 
 /* Flexslider 2 : Accueil Documents */
-.view-accueil-documents img {
+.view-accueil-documents img,
+.view-accueil-documents  .views-field-title {
   padding: 0 15px;
 }
 
