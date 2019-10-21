@@ -1,31 +1,34 @@
-/*
-TABLE DES MATIÈRES
-1 Balises générales
-2 Fonctionnalités
-2.1 Menu mobile
-2.2 Quicktabs standards
-2.3 Barre Titre
-2.4 Menu principal
-2.5 Menu principal collapsé
-2.6 Menu langue
-2.7 Titre des blocs
-3 Regions
-3.0 Slices
-3.1 Footer
-3.2 Recherche V1 - sans module custom
-3.3 Search collapsible
-3.4 Accueil carousel
-3.5 Bloc Accueil Présentation
-3.6 Sidebar
-3.7 Help region + tabs
-3.8 Accueil + titres
-4 Noeuds
-4.1 Node Actualité
-4.2 Node Individu
-4.3 Node Document
-4.4 Node Chronologie
-5 Varia
-6 Responsive
+/**
+* Thème custom réalisé par Sylvain Aubé pour le Laboratoire NT2, 2019
+* Thème parent: Drupal Bootstrap (Bootstrap 3)
+*
+* TABLE DES MATIÈRES
+* 1 Balises générales
+* 2 Fonctionnalités
+* 2.1 Menu mobile
+* 2.2 Quicktabs standards
+* 2.3 Barre Titre
+* 2.4 Menu principal
+* 2.5 Menu principal collapsé
+* 2.6 Menu langue
+* 2.7 Titre des blocs
+* 3 Regions
+* 3.0 Slices
+* 3.1 Footer
+* 3.2 Recherche V1 - sans module custom
+* 3.3 Search collapsible
+* 3.4 Accueil carousel
+* 3.5 Bloc Accueil Présentation
+* 3.6 Sidebar
+* 3.7 Help region + tabs
+* 3.8 Accueil + titres
+* 4 Noeuds
+* 4.1 Node Actualité
+* 4.2 Node Individu
+* 4.3 Node Document
+* 4.4 Node Chronologie
+* 5 Varia
+* 6 Responsive
 */
 
 
@@ -642,6 +645,7 @@ footer .block .block-title {
 /* Liste Document */
 .view-documents img {
   max-width: 100px;
+  padding-bottom: 2em;
 }
 .documents .field--name-field-ref-auteur,
 .documents .field--name-field-date-annee,
@@ -669,6 +673,11 @@ footer .block .block-title {
  }
 
 /* 4.4 Node Chronologie */
+/* Liste Document */
+.view-documents img {
+  max-width: 100px;
+  padding-bottom: 2em;
+}
 
 /**
 * 5 VARIA 
@@ -690,7 +699,15 @@ footer .block .block-title {
 }
 .row_text_wrapper {
   display: inline-block;
+
+}
+/* images portrait - 20% */
+.row_text_wrapper {
   width: 80%;
+}
+/* images paysage - 30% */
+.view-chronologie-impression .row_text_wrapper {
+  width: 70%;
 }
 .row_image {
   padding-right: 2em;
