@@ -462,8 +462,18 @@ ul.menu > li {
     float: none !important;
     margin: 0 0 0 auto;
 }
-
-
+/* changer la règle hover de niveau*/
+#chronocustom-search-form .form-group:hover {
+    width: auto;
+    border-radius: 25px;
+}
+#chronocustom-search-form:hover .form-group {
+    width: 100% !important;
+    border-radius: 25px;
+}
+#chronocustom-search-form:hover .form-group input.form-control {
+  backgroud: transparent;
+}
 
 /* 3.4 Accueil carousel */
 .view-carousel .views-field-body {
