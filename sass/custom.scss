@@ -805,33 +805,33 @@ MODELE https://www.refaktor.org/drupal/porto7/team/john-doe */
 /* Traiter image (Flexslider insère ses propres règles inline) */
 /* aligner titres*/
 /* OPTION 1 - LARGEUR FIXE HAUTEUR VARIABLE */
-.flexslider .slides > li {
+.view-accueil-documents .flexslider .slides > li {
   margin: 0 15px;
 }
-.flexslider .slides img {
+.view-accueil-documents .flexslider .slides img {
     height: auto;
     width: auto;
 }
-.flexslider  .views-field.views-field-field-image {
+.view-accueil-documents .flexslider  .views-field.views-field-field-image {
     min-height: 263px;
 }
 
 /* OPTION 2 - hauteur FIXE largeur VARIABLE 
-.flexslider .slides img {
+.view-accueil-documents .flexslider .slides img {
     height: unset;
     width: unset;
     max-height: 203px;
     text-align: center;
     margin: 0 auto;
 }
-.flexslider .slides > li {
+.view-accueil-documents .flexslider .slides > li {
   margin: 0 15px;
 }
-.flexslider .views-field.views-field-field-image {
+.view-accueil-documents .flexslider .views-field.views-field-field-image {
     min-height: 220px;
     padding-bottom: 20px;
 }
-.views-field.views-field-title {
+.view-accueil-documents .views-field.views-field-title {
     text-align: center;
 }*/
 
