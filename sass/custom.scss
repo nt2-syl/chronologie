@@ -818,14 +818,15 @@ MODELE https://www.refaktor.org/drupal/porto7/team/john-doe */
 .flexslider .slides img {
     height: unset;
     width: unset;
-    margin: 0 15px;
     max-height: 203px;
     text-align: center;
     margin: 0 auto;
-
+}
+.flexslider .slides > li {
+  margin: 0 15px;
 }
 .flexslider .views-field.views-field-field-image {
-    min-height: 240px;
+    min-height: 220px;
     padding-bottom: 20px;
 }
 .views-field.views-field-title {
