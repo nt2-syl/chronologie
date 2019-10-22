@@ -785,26 +785,53 @@ MODELE https://www.refaktor.org/drupal/porto7/team/john-doe */
     line-height: 1;
 }
 
+
 /* Flexslider 2 : Accueil Documents */
 /* Reporter le padding sur les éléments parents */
+    /* SOURCE: .flexslider .slides img {
+    height: 100%;
+    width: auto;
+    display: block;
+    max-width: 100%;
+    }
+
+    */
+
 .view-accueil-documents img,
 .view-accueil-documents  .views-field-title {
   /* padding: 0 15px; */
 }
-/* Traiter image (Flexslider insère ses propres règles inline) */
-.flexslider .slides img {
-    /*height: 100%;
-    width: auto;
-    display: block;
-    max-width: 100%;*/
 
+/* Traiter image (Flexslider insère ses propres règles inline) */
+/* aligner titres*/
+/* OPTION 1 - LARGEUR FIXE HAUTEUR VARIABLE */
+/*.flexslider .slides img {
     height: auto;
     width: auto;
 }
-/* aligner titres*/
 .flexslider  .views-field.views-field-field-image {
     min-height: 270px;
+}*/
+
+/* OPTION 2 - hauteur FIXE largeur VARIABLE */
+
+.flexslider .slides img {
+    height: unset;
+    width: unset;
+    margin: 0 15px;
+    max-height: 203px;
+    text-align: center;
+    margin: 0 auto;
+
 }
+.flexslider .views-field.views-field-field-image {
+    min-height: 240px;
+    padding-bottom: 20px;
+}
+.views-field.views-field-title {
+    text-align: center;
+}
+
 
 /* Contact - Bonifications */
 .contact-message-form .js-form-item-mail {
