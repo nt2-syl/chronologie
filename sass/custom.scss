@@ -419,7 +419,9 @@ ul.menu > li {
     float: none !important;
     margin: 0 0 0 auto;
 }
-
+#block-collapsiblesearch .contextual {
+  display: none;
+}
 
 
 /* 3.4 Accueil carousel */
