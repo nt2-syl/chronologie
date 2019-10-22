@@ -786,10 +786,22 @@ MODELE https://www.refaktor.org/drupal/porto7/team/john-doe */
 }
 
 /* Flexslider 2 : Accueil Documents */
+/* Reporter le padding sur les éléments parents */
 .view-accueil-documents img,
 .view-accueil-documents  .views-field-title {
-  padding: 0 15px;
+  /* padding: 0 15px; */
 }
+/* Traiter image (Flexslider insère ses propres règles inline) */
+.flexslider .slides img {
+    /*height: 100%;
+    width: auto;
+    display: block;
+    max-width: 100%;*/
+
+    height: auto;
+    width: auto;
+}
+
 
 /* Contact - Bonifications */
 .contact-message-form .js-form-item-mail {
@@ -814,3 +826,4 @@ MODELE https://www.refaktor.org/drupal/porto7/team/john-doe */
   padding-bottom: 0;
   margin-bottom: 0;
 }
+
