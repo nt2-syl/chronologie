@@ -801,7 +801,10 @@ MODELE https://www.refaktor.org/drupal/porto7/team/john-doe */
     height: auto;
     width: auto;
 }
-
+/* aligner titres*/
+.flexslider  .views-field.views-field-field-image {
+    min-height: 270px;
+}
 
 /* Contact - Bonifications */
 .contact-message-form .js-form-item-mail {
