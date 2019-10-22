@@ -433,22 +433,24 @@ ul.menu > li {
 #chronocustom-search-form .form-group:hover #edit-search-api-fulltext {
     background: transparent;
 }
-#chronocustom-search-form:hover #edit-actions {
-  display: block;
+#chronocustom-search-form #edit-actions {
+  display: none;
 }
 /* transformer bouton */
-#chronocustom-search-form #edit-actions {
-    display: none;
+#chronocustom-search-form:hover #edit-actions {
+    display: block;
     width: 32px;
     background: transparent url(../../../themes/chronologie/images/loupe16.gif) no-repeat 50% 50%;
     height: 32px;
-    margin: 0 -32px 0 0;
+    margin: -32px 0 0 0;
     display: inline-block;
     border: none;
     box-shadow: none;
     text-shadow: none;
+    position: absolute;
+    right: 0;
 }
-#chronocustom-search-form #edit-submit {
+#chronocustom-search-form:hover #edit-submit {
     padding: 0;
     font-size: 0;
     width: 32px;
