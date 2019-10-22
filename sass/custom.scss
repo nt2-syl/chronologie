@@ -412,14 +412,49 @@ ul.menu > li {
 }
 
 /* Loupe */
-#chronocustom-search-form .form-group input.form-control {
+/*#chronocustom-search-form .form-group input.form-control {
   background: transparent url(../images/loupe16.gif) no-repeat 100% 30%;
+}*/
+
+/* nouvelle version */
+#chronocustom-search-form .form-group input.form-control {
+    background: transparent url(../images/loupe16.gif) no-repeat 50% 30%;
 }
 
 
-/**/
 #block-collapsiblesearch .contextual {
-  display: nonee;
+  display: none;
+}
+#chronocustom-search-form .form-group input.form-control {
+    background: transparent url(../images/loupe16.gif) no-repeat 50% 30%;
+}
+
+/* cacher la loupe à l'ouverture*/
+#chronocustom-search-form .form-group:hover #edit-search-api-fulltext {
+    background: transparent;
+}
+#chronocustom-search-form:hover #edit-actions {
+  display: block;
+}
+/* transformer bouton */
+#chronocustom-search-form #edit-actions {
+    display: none;
+    width: 32px;
+    background: transparent url(../../../themes/chronologie/images/loupe16.gif) no-repeat 50% 50%;
+    height: 32px;
+    margin: 0 -32px 0 0;
+    display: inline-block;
+    border: none;
+    box-shadow: none;
+    text-shadow: none;
+}
+#chronocustom-search-form #edit-submit {
+    padding: 0;
+    font-size: 0;
+    width: 32px;
+    height: 32px;
+    background: transparent;
+    border: none;
 }
 #chronocustom-search-form .form-group {
     float: none !important;
