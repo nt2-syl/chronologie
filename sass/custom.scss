@@ -805,16 +805,15 @@ MODELE https://www.refaktor.org/drupal/porto7/team/john-doe */
 /* Traiter image (Flexslider insère ses propres règles inline) */
 /* aligner titres*/
 /* OPTION 1 - LARGEUR FIXE HAUTEUR VARIABLE */
-/*.flexslider .slides img {
+.flexslider .slides img {
     height: auto;
     width: auto;
 }
 .flexslider  .views-field.views-field-field-image {
-    min-height: 270px;
-}*/
+    min-height: 240px;
+}
 
-/* OPTION 2 - hauteur FIXE largeur VARIABLE */
-
+/* OPTION 2 - hauteur FIXE largeur VARIABLE 
 .flexslider .slides img {
     height: unset;
     width: unset;
@@ -831,8 +830,7 @@ MODELE https://www.refaktor.org/drupal/porto7/team/john-doe */
 }
 .views-field.views-field-title {
     text-align: center;
-}
-
+}*/
 
 /* Contact - Bonifications */
 .contact-message-form .js-form-item-mail {
