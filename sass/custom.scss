@@ -412,68 +412,15 @@ ul.menu > li {
 }
 
 /* Loupe */
-/*#chronocustom-search-form .form-group input.form-control {
-  background: transparent url(../images/loupe16.gif) no-repeat 100% 30%;
-}*/
-
-/* nouvelle version */
 #chronocustom-search-form .form-group input.form-control {
-    background: transparent url(../images/loupe16.gif) no-repeat 50% 30%;
-}
-
-
-#block-collapsiblesearch .contextual {
-  display: none;
-}
-#chronocustom-search-form .form-group input.form-control {
-    background: transparent url(../images/loupe16.gif) no-repeat 50% 30%;
-}
-
-/* cacher la loupe à l'ouverture*/
-#chronocustom-search-form .form-group:hover #edit-search-api-fulltext {
-    background: transparent;
-}
-#chronocustom-search-form #edit-actions {
-  display: none;
-}
-/* transformer bouton */
-#chronocustom-search-form:hover #edit-actions {
-    display: block;
-    width: 32px;
-    background: transparent url(../../../themes/chronologie/images/loupe16.gif) no-repeat 50% 50%;
-    height: 32px;
-    margin: -32px 0 0 0;
-    display: inline-block;
-    border: none;
-    box-shadow: none;
-    text-shadow: none;
-    position: absolute;
-    right: 0;
-}
-#chronocustom-search-form:hover #edit-submit {
-    padding: 0;
-    font-size: 0;
-    width: 32px;
-    height: 32px;
-    background: transparent;
-    border: none;
+  background: transparent url(../images/loupe16.gif) no-repeat 98% 30%;
 }
 #chronocustom-search-form .form-group {
     float: none !important;
     margin: 0 0 0 auto;
 }
-/* changer la règle hover de niveau*/
-#chronocustom-search-form .form-group:hover {
-    width: auto;
-    border-radius: 25px;
-}
-#chronocustom-search-form:hover .form-group {
-    width: 100% !important;
-    border-radius: 25px;
-}
-#chronocustom-search-form:hover .form-group input.form-control {
-  backgroud: transparent;
-}
+
+
 
 /* 3.4 Accueil carousel */
 .view-carousel .views-field-body {
