@@ -577,6 +577,20 @@ footer .block .block-title {
   margin: 0 0 14px 0;
 }
 
+/* Facettes : Titre des items : les titres doivent être listés comme du texte, pas comme des entêtes */
+.field--type-entity-reference h2 {
+  font-family: "Open Sans",sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #657184;
+  font-weight: 400;
+}
+
+/* Taxonomies Listes : réduire l'espace sous les titres */
+.view-taxonomy-term h2 {
+  margin: 0 0 0.5em 0;
+}
+
 /* 4 NOEUDS */
 
 /* 4.1 Node Actualité */
