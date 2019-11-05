@@ -161,6 +161,9 @@ h4 {
 }
 
 /* 2 Fonctionnalités */
+a.logo img {
+  max-width: 100px;
+}
 
 /* 2.1 Menu mobile */
 .navbar-toggle .icon-bar {
@@ -580,10 +583,11 @@ footer .block .block-title {
 /* Facettes : Titre des items : les titres doivent être listés comme du texte, pas comme des entêtes */
 .field--type-entity-reference h2 {
   font-family: "Open Sans",sans-serif;
-  font-size: 16px;
+  font-size: 100%;
   line-height: 1.8;
   color: #657184;
   font-weight: 400;
+  margin: 0;
 }
 
 /* Taxonomies Listes : réduire l'espace sous les titres */
@@ -861,6 +865,10 @@ MODELE https://www.refaktor.org/drupal/porto7/team/john-doe */
   line-height: auto;
   padding-left: 0;
   background: transparent;
+}
+
+.path-user #block-collapsiblesearch {
+  display: none;
 }
 
 /**
