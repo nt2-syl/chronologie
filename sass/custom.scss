@@ -918,10 +918,10 @@ MODELE https://www.refaktor.org/drupal/porto7/team/john-doe */
   font-weight: bold;
 }
 .page-node-type-individu .region-sidebar-first .block-fieldblock {
-  padding-bottom: 1em;
+  padding-bottom: 0;
+  margin-bottom: 1em;
 }
-.region-sidebar-first .field--type-image {
-  padding-bottom:0;
+.page-node-type-individu .region-sidebar-first .field--type-image {
   margin-bottom: 0;
 }
 .field--name-field-description-image {
