@@ -879,16 +879,51 @@ MODELE https://www.refaktor.org/drupal/porto7/team/john-doe */
    Visible sur listes Auteurs */
   .views-exposed-form > div {
     width: 100%;
-  }  
+  }
+  /* Cacher le nom du site sauf ecrans larges */
+  .navbar-brand {
+    display: none;
+  }
 }
 /* double marge sur noeud chronologie */
 .page-node-type-chronologie .region-sidebar-first .block-fieldblock {
   padding-bottom: 0;
   margin-bottom: 0;
 }
-/* Cacher le nom du site sauf ecrans larges */
-@media (max-width: 992px) {
-  .navbar-brand {
-    display: none;
-  }
+/*extra*/
+.item--message {
+  margin-bottom: 1em;
+}
+/*timeline*/
+.tl-text .tl-headline-date {
+  margin-bottom: 1em;
+  font-size: 28px;
+}
+.tl-timeline h2 {
+  margin-bottom: 1em;
+}
+.tl-timeline a {
+  color: #0088cc;
+}
+/*Recherche*/
+.view-environnement-recherche .views-view-grid .views-col {
+    padding-right: 1em;
+}
+/*Page Individu*/
+.individu_title {
+  margin-bottom: 1em;
+}
+.page-node-type-individu .field--name-field-taxo-territoire {
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+.page-node-type-individu .region-sidebar-first .block-fieldblock {
+  padding-bottom: 1em;
+}
+.region-sidebar-first .field--type-image {
+  padding-bottom:0;
+  margin-bottom: 0;
+}
+.field--name-field-description-image {
+  padding: 0 5px;
 }
