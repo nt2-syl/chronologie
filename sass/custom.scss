@@ -927,3 +927,26 @@ MODELE https://www.refaktor.org/drupal/porto7/team/john-doe */
 .field--name-field-description-image {
   padding: 0 5px;
 }
+.tl-text .tl-headline-date {
+font-size: 28px !important;
+}
+.field--name-field-description-image {
+font-size: 11px;
+}
+.path-recherche .btn:hover {
+color: inherit;
+}
+/* Tweak accueil */
+.path-frontpage .main-container .col-sm-3 {
+width: 33%;
+}
+.path-frontpage .main-container.col-sm-9 {
+width: 66%;
+}
+.view-accueil-documents .flexslider .views-field.views-field-field-image {
+min-height: 256px;
+}
+.path-frontpage #flexslider-1 {
+background-color: #551313 !important;
+}
+
