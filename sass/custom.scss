@@ -951,4 +951,42 @@ min-height: 256px;
 .path-frontpage #flexslider-1 {
 background-color: #fff !important;
 }
-
+/**/
+.pager-nav {
+  clear: both
+}
+/* Not responsive*/
+.page-node-type-article .field--name-field-image img {
+  width: auto;
+  padding-bottom:1em;
+  /* margin: 0 auto; */
+}
+.path-frontpage .accueil_actualites_title {
+  font-size: 1.25em;
+}
+.page-node-type-article .region-sidebar-second .block-title {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 27px;
+  margin: 0 0 14px 0;
+}
+/* pas de boutons verts */
+.btn {
+  background: #08c;
+}
+.btn-primary {
+  background: #08c;
+  border-color: #0086b3;
+}
+.region-sidebar-first #block-formulaireexposeenvironnement-recherchepage-1-4 {
+  padding: 5px 12px 5px;
+}
+/* interligne simple */
+.field--name-field-description-image p {
+  margin: 0 0 auto;
+}
+.page-node-type-individu .footer .field--name-body {
+  border-bottom: none;
+  margin-bottom:0;
+}
