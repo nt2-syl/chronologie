@@ -962,7 +962,7 @@ background-color: #fff !important;
   /* margin: 0 auto; */
 }
 .path-frontpage .accueil_actualites_title {
-  font-size: 1.25em;
+  font-size: 1.25em !important;
 }
 .page-node-type-article .region-sidebar-second .block-title {
   font-size: 16px;
@@ -989,4 +989,11 @@ background-color: #fff !important;
 .page-node-type-individu .footer .field--name-body {
   border-bottom: none;
   margin-bottom:0;
+}
+/**/
+.pagination > li > a:hover, .pagination > li > a:focus, .pagination > li > span:hover, .pagination > li > span:focus {
+  color: #0088cc;
+}
+.region-sidebar-first .block-fieldblock {
+  padding-bottom: 0;
 }
