@@ -1009,4 +1009,11 @@ color: #000 !important;
   .path-frontpage .main-container .col-sm-3.col-sm-9 {
     width: 100%;
   }
+  .navbar-default .collapse.in .navbar-nav > li > a {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  .navbar-default {
+    width: 100%;
+  }
 }
