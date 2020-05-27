@@ -885,6 +885,7 @@ MODELE https://www.refaktor.org/drupal/porto7/team/john-doe */
     display: none;
   }
 }
+
 /* double marge sur noeud chronologie */
 .page-node-type-chronologie .region-sidebar-first .block-fieldblock {
   padding-bottom: 0;
@@ -1000,4 +1001,12 @@ background-color: #fff !important;
 .documents .field--name-field-date-annee .field--item, 
 .documents .field--name-field-taxo-lang-originale .field--item {
 color: #000 !important;
+}
+@media (max-width: 768px) {
+  .path-frontpage .main-container .col-sm-3 {
+    width: 33%;
+  }
+  .path-frontpage .main-container .col-sm-3.col-sm-9 {
+    width: 100%;
+  }
 }
