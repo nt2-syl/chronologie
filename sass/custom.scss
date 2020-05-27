@@ -1003,8 +1003,8 @@ background-color: #fff !important;
 color: #000 !important;
 }
 @media (max-width: 768px) {
-  .path-frontpage .main-container .col-sm-3 {
-    width: 33%;
+  .path-frontpage .main-container aside.col-sm-3 {
+    width: 100%;
   }
   .path-frontpage .main-container .col-sm-3.col-sm-9 {
     width: 100%;
